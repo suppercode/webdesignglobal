@@ -1,0 +1,251 @@
+body{
+	font-family: arial,sans-serif!important;
+	font-size: 13px!important;
+	background: #F1F1F1!important;
+}
+body>#body-container{
+	height: auto;
+	min-height: 100%;
+}
+#body-container{
+	padding-bottom: 191px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.body-content{
+	padding: 10px;
+}
+.search-form{
+	display: none;
+}
+.logo{
+	margin-top: 5px;
+}
+.clear{
+	clear: both;
+	overflow: hidden;
+}
+.errorMessage{
+	color: #C00;
+}
+.panel-enabled #page{
+	padding-left: 230px;
+	position: relative;
+}
+.panel-enabled #apps-panel-menu{
+	height: 100%;
+}
+#apps-panel-menu{
+	border-right: 1px solid #E8E8E8;
+	box-shadow: none;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #FFF;
+	z-index: 999;
+	width: 230px;
+	height: auto;
+	max-height: 100%;
+}
+#panel-container{
+	padding: 13px 22px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+}
+#panel-container .apps-link li a{
+	height: 28px;
+	font-size: 12px;
+	color: #222;
+	display: block;
+	position: relative;
+	border: none;
+	background: none;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+#panel-container .apps-link li a:before{
+	content: '';
+	height: 100%;
+}
+.yt-valign:before{
+	vertical-align: middle;
+	display: inline-block;
+}
+#panel-container .apps-link li a:hover,
+#panel-container .apps-link li a.actived{
+	background: #428BCA;
+	color: #fff;
+	text-decoration: none;
+}
+.show-panel #apps-panel-menu{
+	visibility: visible;
+	left: 0;
+	opacity: 1;
+	-moz-transition: opacity .1s;
+	-webkit-transition: opacity .1s;
+	transition: opacity .1s;
+	margin-top: 50px;
+	position: fixed;
+}
+#head{
+	margin: 0 auto;
+}
+#head-container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+}
+#head-logo{
+	float: left;
+	position: relative;
+	margin-top: 2px;
+	height: 32px;
+}
+#head-user{
+	float: right;
+	margin-left: 50px;
+	margin-top: 3px;
+	color: #555;
+}
+#head-positioner-height-offset{
+	height: 50px;
+}
+.show-panel #wr-head-container{
+	min-width: 800px;
+	background: #FFF;
+}
+#wr-head-container {
+	background: #F1F1F1;
+	border-bottom: 1px solid #E8E8E8;
+	padding-top: 7px;
+	padding-bottom: 8px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#wr-head-container:after{
+	clear: both;
+}
+#logo{
+	height: 34px;
+}
+.content-alignment{
+	margin-left: 5px;
+	margin-right: 5px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.branded-page-container{
+	min-width: 957px;
+}
+.branded-page-container-wrr-inner{
+	display: table-row;
+}
+.branded-page-container .branded-page-container-wrr{
+	display: table;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.branded-page-primary-col{
+	display: table-cell;
+	vertical-align: top;
+}
+.branded-page-secondary-col{
+	display: table-cell;
+	vertical-align: top;
+	padding-bottom: 5px;
+	min-width: 315px;
+}
+.yt-card {
+	margin: 53px 0;
+	border: 0;
+	background: #FFF;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.div-table{
+	display: table;
+	width: 100%;
+}
+.div-row{
+	display: table-row;
+}
+.div-column-l,.div-column-r{
+	display: table-cell;
+	vertical-align: top;
+}
+.div-column-r{
+	text-align: right;
+}
+.toolbar-action{
+	background: #fff;
+	padding: 10px;
+	position: fixed;
+	top: 50px;
+	right: 0px;
+	left: 230px;
+	z-index: 999;
+	height: 50px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.form .row{
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.form label{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.form input[type="text"],
+.form textarea,
+.form select{
+	min-width: 400px;
+	padding: 5px;
+	border: 1px solid #D3D3D3;
+}
+.form input[type="text"]:hover,
+.form textarea:hover,
+.form select:hover{
+	border: 1px solid #B9B9B9;
+}
+.form textarea{
+	height: 100px;
+}
+.page-title{
+	font-size: 16px;
+	margin: 0;
+	font-weight: bold;
+	color: #428BCA;
+}
+.search-form{
+	overflow: hidden;
+}
+.search-form .row{
+	float: left;
+	margin: 0 0 0 10px;
+}
+.search-form .buttons{
+	clear: both;
+	margin-top: 10px;
+}
+.sub-menu li a{
+	padding-left: 30px!important;
+}
+.apps-link a i{
+	margin-right: 5px;
+}
+.dropdown-menu{
+	-webkit-box-shadow: 3px 3px 3px #AAA!important;
+	box-shadow: 3px 3px 3px #AAA!important;
+	border-radius: 0!important;
+	background-clip: border-box!important;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+	background: #428BCA!important;
+	color: #fff!important;
+}

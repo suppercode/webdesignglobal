@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+.menu li a {
+padding: 0 15px;
+text-align: center;
+}
+.menu{
+	width: 960px;
+	margin: 10px auto;
+	border: 1px solid #53C561;
+	background-color: #2B8430;
+	background-image: -moz-linear-gradient(#3FB33A, #2B8430);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3FB33A), to(#2B8430));
+	background-image: -webkit-linear-gradient(#3FB33A, #2B8430);
+	background-image: -o-linear-gradient(#3FB33A, #2B8430);
+	background-image: -ms-linear-gradient(#3FB33A, #2B8430);
+	background-image: linear-gradient(##3FB33A, #2B8430);
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+	-webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+	box-shadow: 0 1px 1px #3AA737, 0 1px 0 #3AA737 inset;
+	display: table;
+	list-style: none;
+	padding: 0;
+}
+.menu ul{
+	list-style: none;
+	background: #2B8430;
+	background: -moz-linear-gradient(#3FB33A, #2B8430);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3FB33A), to(#2B8430));
+	background: -webkit-linear-gradient(#3FB33A, #2B8430);
+	background: -o-linear-gradient(#3FB33A, #2B8430);
+	background: -ms-linear-gradient(#3FB33A, #2B8430);
+	background: linear-gradient(#3FB33A, #2B8430);
+}
+.menu li {
+	float: left;
+	-moz-box-shadow: 1px 0 0 #3CAB38;
+	-webkit-box-shadow: 1px 0 0 #3CAB38;
+	box-shadow: 1px 0 0 #3CAB38;
+	position: relative;
+}
+.menu li.border span{
+	background: transparent;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	width: 2px;
+}
+.menu li.first {margin:0;}
+.menu li a:hover, .menu li.active a{
+	color: #fff;
+}
+.menu li.active ul li a,
+.menu li.sfHover ul li a{
+	border: 0!important;
+}
+.menu li a {
+	float: left;
+	padding: 12px 25px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font: bold 13px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #000;
+	}
+.menu li a:hover{
+	text-decoration: none!important;
+}
+/*for Submenu*/
+
+.menu ul {
+	position:		absolute;
+	top:			-999em;
+	padding:		0;
+}
+.menu ul ul{
+	padding:		0;
+}
+.menu ul li {
+	-webkit-box-shadow: 0 1px 0 #266325, 0 2px 0 #3AA737;
+	box-shadow: 0 1px 0 #2F8E32, 0 2px 0 #3AA737;
+}
+.menu ul li a{
+	text-align: left;
+	text-transform: none;
+	padding: 5px 10px;
+	width: 180px;
+	line-height: 22px;
+	height: 22px;
+	display: block;
+color: #fff;
+}
+.menu ul a:hover{
+	background-color: #0186ba;
+	background-image: -moz-linear-gradient(#04acec, #0186ba);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+	background-image: -webkit-linear-gradient(#04acec, #0186ba);
+	background-image: -o-linear-gradient(#04acec, #0186ba);
+	background-image: -ms-linear-gradient(#04acec, #0186ba);
+	background-image: linear-gradient(#04acec, #0186ba);
+}
+.menu li:hover {
+	visibility:		inherit; 
+}
+.menu li li a:hover{
+	border: 0!important;
+}
+.menu li:hover ul, .menu li.sfHover ul {
+	left:			0px;
+	top:			33px;
+	z-index:		999;
+}
+ul.menu li:hover li ul, ul.menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.menu li li:hover ul, ul.menu li li.sfHover ul {
+	left:			187px;
+	top:			0px;
+	z-index:		9999;
+}
+ul.menu li li:hover li ul, ul.menu li li.sfHover li ul {
+	top:			-999em;
+}

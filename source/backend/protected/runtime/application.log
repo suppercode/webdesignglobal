@@ -1,0 +1,127 @@
+2014/05/20 10:02:50 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "E:\source\GITHUB\gcms\source\backend\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in E:\yii-1.1.14.f0fee9\framework\web\CAssetManager.php:138
+Stack trace:
+#0 E:\yii-1.1.14.f0fee9\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('E:\source\GITHU...')
+#1 E:\yii-1.1.14.f0fee9\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 E:\source\GITHUB\gcms\source\backend\protected\components\BackendApplicationController.php(36): CAssetManager->publish('E:\source\GITHU...', false, -1, true)
+#3 E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php(8): BackendApplicationController->init()
+#4 E:\yii-1.1.14.f0fee9\framework\web\CWebApplication.php(281): FilesController->init()
+#5 E:\yii-1.1.14.f0fee9\framework\web\CWebApplication.php(141): CWebApplication->runController('files/files/adm...')
+#6 E:\yii-1.1.14.f0fee9\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\source\GITHUB\gcms\source\backend\dev.php(20): CApplication->run()
+#8 {main}
+REQUEST_URI=/backend/dev.php?r=files/files/admin
+---
+2014/05/20 10:02:50 [trace] [system.CModule] Loading "log" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:02:50 [trace] [system.CModule] Loading "request" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:02:50 [trace] [system.CModule] Loading "urlManager" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:02:50 [trace] [system.base.CModule] Loading "files" module
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:02:50 [trace] [system.CModule] Loading "clientScript" application component
+in E:\source\GITHUB\gcms\source\backend\protected\components\BackendApplicationController.php (34)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php (8)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:02:50 [trace] [system.CModule] Loading "assetManager" application component
+in E:\source\GITHUB\gcms\source\backend\protected\components\BackendApplicationController.php (36)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php (8)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:02:50 [trace] [system.CModule] Loading "coreMessages" application component
+in E:\source\GITHUB\gcms\source\backend\protected\components\BackendApplicationController.php (36)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php (8)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:02:50 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "E:\source\GITHUB\gcms\source\backend\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in E:\yii-1.1.14.f0fee9\framework\web\CAssetManager.php:138
+Stack trace:
+#0 E:\yii-1.1.14.f0fee9\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('E:\source\GITHU...')
+#1 E:\yii-1.1.14.f0fee9\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 E:\source\GITHUB\gcms\source\backend\protected\components\BackendApplicationController.php(36): CAssetManager->publish('E:\source\GITHU...', false, -1, true)
+#3 E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php(8): BackendApplicationController->init()
+#4 E:\yii-1.1.14.f0fee9\framework\web\CWebApplication.php(281): FilesController->init()
+#5 E:\yii-1.1.14.f0fee9\framework\web\CWebApplication.php(141): CWebApplication->runController('files/files/adm...')
+#6 E:\yii-1.1.14.f0fee9\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\source\GITHUB\gcms\source\backend\dev.php(20): CApplication->run()
+#8 {main}
+REQUEST_URI=/backend/dev.php?r=files/files/admin
+---
+2014/05/20 10:02:50 [trace] [system.CModule] Loading "errorHandler" application component
+2014/05/20 10:02:50 [trace] [system.CModule] Loading "themeManager" application component
+2014/05/20 10:03:03 [trace] [system.CModule] Loading "log" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:03 [trace] [system.CModule] Loading "request" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:03 [trace] [system.CModule] Loading "urlManager" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:03 [trace] [system.base.CModule] Loading "files" module
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:03 [trace] [system.CModule] Loading "clientScript" application component
+in E:\source\GITHUB\gcms\source\backend\protected\components\BackendApplicationController.php (34)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php (8)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:03 [trace] [system.CModule] Loading "assetManager" application component
+in E:\source\GITHUB\gcms\source\backend\protected\components\BackendApplicationController.php (36)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php (8)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:04 [trace] [system.CModule] Loading "themeManager" application component
+in E:\source\GITHUB\gcms\source\backend\protected\components\BackendApplicationController.php (40)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php (8)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:04 [trace] [system.CModule] Loading "messages" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\files\controllers\FilesController.php (9)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:04 [trace] [system.base.CModule] Loading "srbac" module
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\components\Helper.php (339)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\controllers\SBaseController.php (32)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:04 [trace] [system.CModule] Loading "user" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\controllers\SBaseController.php (76)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:04 [trace] [system.CModule] Loading "session" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\controllers\SBaseController.php (76)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:04 [trace] [system.CModule] Loading "authManager" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\controllers\SBaseController.php (76)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:04 [trace] [system.CModule] Loading "db" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\controllers\SBaseController.php (76)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:04 [trace] [system.db.CDbConnection] Opening DB connection
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\controllers\SBaseController.php (76)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.db.CDbCommand] Querying SQL: SELECT name, type, description, t1.bizrule, t1.data, t2.bizrule AS bizrule2, t2.data AS data2 FROM items t1, assignments t2 WHERE name=itemname AND userid=:userid
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\components\SDbAuthManager.php (35)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\controllers\SBaseController.php (76)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "log" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "request" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "urlManager" application component
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.base.CModule] Loading "user" module
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.base.CModule] Loading "srbac" module
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\components\Helper.php (339)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\controllers\SBaseController.php (32)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "assetManager" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\components\Helper.php (488)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\SrbacModule.php (104)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\components\Helper.php (339)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "clientScript" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\components\Helper.php (490)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\SrbacModule.php (104)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\srbac\components\Helper.php (339)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "user" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\user\controllers\LoginController.php (13)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "session" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\user\controllers\LoginController.php (13)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "themeManager" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\user\controllers\LoginController.php (29)
+in E:\source\GITHUB\gcms\source\backend\dev.php (20)
+2014/05/20 10:03:05 [trace] [system.CModule] Loading "messages" application component
+in E:\source\GITHUB\gcms\source\backend\protected\modules\user\UserModule.php (154)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\user\views\user\login.php (2)
+in E:\source\GITHUB\gcms\source\backend\protected\modules\user\controllers\LoginController.php (29)

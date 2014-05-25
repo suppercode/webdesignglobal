@@ -1,0 +1,161 @@
+/*
+CSS for the demo: jQuery Media Rich Dropdown Menu
+Demo: jQuery Media Rich Dropdown Menu
+Author: Ian Lunn
+Author URL: http://www.ianlunn.co.uk/
+Demo URL: http://www.ianlunn.co.uk/demos/jquery-media-rich-drop-down-menu/
+Tutorial URL: http://www.ianlunn.co.uk/blog/code-tutorials/jquery-media-rich-dropdown-menu/
+
+License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike). Please attribute work to Ian Lunn simply by leaving these comments in the source code or if you'd prefer, place a link on your website to http://www.ianlunn.co.uk/.
+
+Dual licensed under the MIT and GPL licenses:
+http://www.opensource.org/licenses/mit-license.php
+http://www.gnu.org/licenses/gpl.html
+*/
+
+@charset "utf-8";
+
+#nav .show{ /* class="show" is used for the second level navigation of a category */
+	display: inline !important; /* all navigation elements are hidden by default, !important overrides that */
+	width: 960px; /* width of the <body> */
+} 
+#nav .show ul li{
+	display: inline !important;
+}
+#nav .show ul{
+	background-color: #999;
+}
+#nav .active ul{ /* style the second level menu and make it appear for the active page */
+	padding: 10px;
+	position: relative;
+} 
+#nav li{ /* hide all navigation elements except the top level navigation links */
+	display: none;
+} 
+
+
+/*--GLOBAL STYLES FOR USE WHEN JAVASCRIPT IS BOTH ENABLED AND DISABLED--*/
+
+#nav{ /*the top level, unordered list of navigation links*/
+	position: relative;
+	z-index: 9999;
+	background: transparent url(../images/bg_menu.png) repeat-x;
+	height: 65px;
+	line-height: 25px;
+	padding: 0;
+	margin: 0;
+} 
+#nav a{
+	color: #8f8f8f
+}
+#nav > li > a:hover{
+	text-decoration: none;
+}
+#nav .active{ /* this is the class for the tab/page we are currently viewing */
+	background-color: #999 !important;
+} 
+
+#nav ul li a:hover{
+	text-decoration: underline;
+}
+#nav > li{
+	float: left;
+}
+#nav > li > a{
+	height: 65px;
+	line-height: 65px;
+	display: block;
+	float: left;
+	padding: 0 16px;
+	font-size: 16px;
+	color: #a5a5a5;
+	text-transform: uppercase;
+	position: relative;
+}
+#nav > li > a:hover{
+	background: #fff;
+	color: #333;
+}
+#nav > li.down_arrow > a:hover{
+	background: #fff url(../images/down.png) no-repeat center 50px!important;
+	color: #333;
+}
+#nav > li.down_arrow > ul > li > a{
+	display: block;
+	padding: 0 5px;
+}
+#nav > li.down_arrow > ul li a:hover{
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+}
+#nav > li > ul{
+	left: 0;
+	padding: 0;
+	position: absolute;
+	width: 960px;
+}
+
+#nav > li > ul > li{
+	color: black;
+	height: 100%;
+	width: 175px;
+}
+
+
+/*--STYLE ELEMENTS OF THE DROPDOWN MENUS--*/
+
+ul#nav li{
+	list-style: none;
+}
+
+.price, #nav img{ /* price tags and product images */
+	display: block;
+}
+
+
+/*--STYLES FOR THE PURPOSE OF THE DEMO PAGE--*/
+
+.prod1{
+	float: left;
+}
+
+.prod2{
+	float: right;
+}
+
+.credits{
+	margin: 0 0 40px 0;
+}
+
+.credits a{
+	color: blue;
+	text-decoration: underline;
+}
+
+.credits a:hover{
+	text-decoration: none;	
+}
+.down_arrow{
+	background: transparent url(../images/down.png) no-repeat center 50px;
+}
+#nav li.down_arrow ul span{
+	background: transparent url(../images/arrow_mn.png) no-repeat left center;
+	padding-left: 10px;
+	font-weight: bold;
+	color: #8f8f8f
+}
+ul#nav li ul li{
+	width: 150px;
+}
+ul#nav li.border{
+	width: 7px;
+	background: transparent url(../images/border_menu.png) no-repeat center center;
+	height: 65px;
+}
+ul#nav li ul{
+	max-width: 600px;
+}
+ul#nav li.s2 ul{
+	width: 165px!important;
+}

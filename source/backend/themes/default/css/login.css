@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+body{
+	font-family: arial,sans-serif!important;
+	font-size: 13px!important;
+}
+.login-box{
+	border: 1px solid #D3D3D3;
+	width: 300px;
+	margin: 100px auto;
+	padding: 20px 35px;
+	border-radius: 2px;
+}
+.login-box h2 a{
+	color: #D61B41;
+	text-decoration: none;
+	font-weight: bold;
+}
+.login-box label{
+	display: block;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]{
+	width: 285px;
+	padding: 5px;
+}
+.login-box input[type="submit"]{
+	padding: 3px 15px;
+}
+.rememberMe input{
+	float: left
+}
+hr{
+	border-bottom: 1px solid #E2E2E2;
+	margin: 8px 0;
+}
